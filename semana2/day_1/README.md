@@ -4,4 +4,6 @@
  ![img](promises2.PNG)
 ## Actividad - POO
 ![img](POO1.PNG)
+![img](POO2.PNG)
+
 
