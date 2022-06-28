@@ -10,7 +10,8 @@ export class Data {
     if (contentFile) {
       return JSON.parse(contentFile);
     }
-    return { descripcion: "Pedidos", pedidos: [] };
+    return { descripcion: "ESTOS SON LOS PEDIDOS",
+   pedidos: [] };
   }
 
   writeJsonFile(data) {
@@ -22,7 +23,7 @@ export class Data {
     return this.readJsonFile();
   }
 
-  save(pedido) {
+  guardar(pedido) {
     let data = this.readJsonFile();
     data.pedidos.push(pedido);
     this.writeJsonFile(data);

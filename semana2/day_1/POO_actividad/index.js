@@ -7,9 +7,9 @@ class Add {
     this.data = new Data("./data.json");
   }
   registerPedido(pedido) {
-    this.data.save(pedido);
+    this.data.guardar(pedido);
   }
-
+  
   delete(id) {
     this.data.delete(id);
   }
@@ -27,3 +27,4 @@ Stack.forEach((pedido) => {
 });
 
 add.showPedido();
+
