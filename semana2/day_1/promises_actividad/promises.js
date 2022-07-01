@@ -1,7 +1,11 @@
 //ACTIVIDDAD PROMISES
+<<<<<<< HEAD
  const https = require('https');
  //ACTIVIDDAD PROMISES
 //import https from 'https';
+=======
+import https from 'https';
+>>>>>>> 46a4b81a673f52db9b29180fc75005c8ae8235d4
 
 function requestLink(endpoint){
     return new Promise((resolve, reject) =>{
@@ -38,7 +42,11 @@ Promise.all([promise1, promise2, promise3]).then(resultado=>{
     console.log(error)
 }) 
  
+<<<<<<< HEAD
 /*
+=======
+
+>>>>>>> 46a4b81a673f52db9b29180fc75005c8ae8235d4
 //promise.race
  Promise.race([promise1, promise2, promise3]).then(resultado=>{
     console.log(resultado);
@@ -51,4 +59,7 @@ request("https://flagcdn.com/es/codes.json")
 request("https://jsonplaceholder.typicode.com/posts")
 request("https://jsonplaceholder.typicode.com/posts/2")
  
+<<<<<<< HEAD
 */
+=======
+>>>>>>> 46a4b81a673f52db9b29180fc75005c8ae8235d4
